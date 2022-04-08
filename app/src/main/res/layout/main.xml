@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="143dp"
+        app:srcCompat="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/aboutIGOM"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffffffff"
+            android:elevation="10dp"
+            android:padding="20dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/about"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:background="#ffffffff"
+            android:elevation="10dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/translator" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffffff"
+            android:elevation="10dp"
+            android:padding="20dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/mypage" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="163dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffffff"
+            android:elevation="10dp"
+            android:padding="20dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/dictionary" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffffff"
+            android:elevation="10dp"
+            android:padding="20dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/tipsguides" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffffff"
+            android:elevation="10dp"
+            android:padding="20dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/nearme" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff"
+            android:elevation="10dp"
+            android:padding="20dp"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/community" />
+
+        <ImageButton
+            android:id="@+id/imageButton12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff"
+            android:elevation="10dp"
+            android:padding="20dp"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/emergency" />
+
+        <ImageButton
+            android:id="@+id/imageButton13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff"
+            android:elevation="10dp"
+            android:padding="20dp"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/settings" />
+    </LinearLayout>
+
+</LinearLayout>

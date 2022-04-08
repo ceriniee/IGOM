@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"
+        android:text="Local Funding" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="Everyone including foreigners living in Korea must pay into the NHI. The good news is that the monthly payment for the NHI is relatively cheap (around 123,000 won). In addition, people with NHI will only have to cover 20% of their medical treatment fees. Therefore, healthcare in Korea is very affordable." />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/black"
+        android:text="Free Clinics" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="The Good Neighbor Clinic at Kyungdong Church provides free medical services for foreign workers in Korea. The clinic currently runs departments of internal medicine, surgery, orthopedics, obstetrics and gynecology, pediatrics, otolaryngology, ophthalmology, dentistry, dermatology, oriental medicine and clinical pathology." />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="5dp"
+        android:text="Address :Kyungdong Church, 26-6 Jangchung-dong 1-ga, Jung-gu, Seoul" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="5dp"
+        android:text="Tel.:82-2- 2274-0161" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="5dp"
+        android:text="Hours :2:30 to 5:30 p.m. (the first and third Sundays of the month)" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="5dp"
+        android:text="Transportation :Dongdaemun Station (Line 2, 4, 5, exit 4), Dongguk Univ. Station (Line 3, exit 2, 3)" />
+</LinearLayout>

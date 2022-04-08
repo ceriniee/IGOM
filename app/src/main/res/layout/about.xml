@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="About International Guide of Medicine (IGOM)"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="Introduction" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:gravity="left"
+        android:text="When visiting or living in another country, it can be difficult to adjust to its language and culture. In times of emergency (for example, if one becomes very sick), this difficulty only increases. As the founder of this app, Suh Hyun Lee, attended an international school in South Korea, she observed various difficulties that her friends and teachers experienced as foreigners in the country. In addition, when travelling, we also experienced difficulties seeking medical help in a foreign country. We founded our business in order to prepare a guide for ourselves as well as foreigners in our country in times of medical emergency." />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="Why this logo?" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:gravity="left"
+        android:text="“Gom” means “bear” in Korean. Inspired by the Korean definition of our app’s acronym (IGOM), we decided to use a blue teddy bear that has a purple pill next to it for our logo. To begin with, a teddy bear is a friendly icon— no matter one’s nationality. In addition, because our app is related to medicine and hospital, we used “clean” and “simple” colors such as light blue and purple.
+" />
+
+
+</LinearLayout>
