@@ -16,10 +16,10 @@
         android:textColor="@color/black"
         />
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="60dp"
-    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="340dp"
@@ -38,50 +38,71 @@
             android:orientation="horizontal"
             android:layout_marginLeft="0dp"
             app:srcCompat="@android:drawable/ic_menu_search" />
-</LinearLayout>
-
-
-<LinearLayout
-   android:layout_width="match_parent"
-   android:layout_height="match_parent"
-   android:orientation="vertical">
-
-    <TextView
-        android:id="@+id/textView22"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Today's Medical News"
-        android:textSize="15dp"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:textColor="#FF9797"
-        android:layout_marginTop="20dp"
-        />
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
-
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
         <ImageView
-            android:id="@+id/imageView6"
-            android:layout_width="137dp"
-            android:layout_height="100dp"
-            android:layout_marginTop="20dp"
-            android:layout_weight="1"
-            android:gravity="left"
-            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@tools:sample/avatars" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv1"
+            android:text="1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv2"
+            android:text="2"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView23"
-            android:layout_width="245dp"
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
+            android:text="Today's Medical News"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#FF9797"
             android:layout_marginTop="20dp"
-            android:layout_weight="1"
-            android:gravity="left"
-            android:text="Trending Article: Animals and Medicine"
-            android:textSize="15dp" />
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="137dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="245dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Trending Article: Animals and Medicine"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
     </LinearLayout>
-</LinearLayout>
 </LinearLayout>
