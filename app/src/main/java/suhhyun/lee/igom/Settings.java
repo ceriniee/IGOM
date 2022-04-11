@@ -18,7 +18,7 @@ public class Settings extends AppCompatActivity {
         ClearInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(Settings.this, Translator.class); // 이동 해야 되는 페이지
+                Intent it = new Intent(Settings.this, Settings.class); // 이동 해야 되는 페이지
                 startActivity(it);
                 finish();
             }

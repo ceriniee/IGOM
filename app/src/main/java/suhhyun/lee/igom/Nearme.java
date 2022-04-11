@@ -20,7 +20,7 @@ public class Nearme extends AppCompatActivity {
         searchHospital.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(Nearme.this, Translator.class); // 이동 해야 되는 페이지
+                Intent it = new Intent(Nearme.this, Map.class); // 이동 해야 되는 페이지
                 startActivity(it);
                 finish();
             }
@@ -28,7 +28,7 @@ public class Nearme extends AppCompatActivity {
         searchPharmacy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(Nearme.this, Translator.class); // 이동 해야 되는 페이지
+                Intent it = new Intent(Nearme.this, Map.class); // 이동 해야 되는 페이지
                 startActivity(it);
                 finish();
             }
