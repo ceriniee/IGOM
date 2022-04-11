@@ -28,9 +28,15 @@ public class Emergency extends AppCompatActivity {
         NineOneOne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(Emergency.this, Translator.class); // 이동 해야 되는 페이지
-                startActivity(it);
-                finish();
+                if (ContextCompat.checkSelfPermission(Emergency.this, Manifest.permission.CALL_PHONE)== PackageManager.PERMISSION_GRANTED) {
+                    Intent it = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "911"));
+                    startActivity(it);
+                } else {
+                    ActivityCompat.requestPermissions(
+                            Emergency.this,
+                            new String[]{Manifest.permission.CALL_PHONE},
+                            123);
+                }
             }
         });
         mom.setOnClickListener(new View.OnClickListener() {
